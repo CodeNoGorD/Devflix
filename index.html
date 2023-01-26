@@ -1,855 +1,936 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./src/img/logo/favicon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/img/logo/favicon.png" />
     <!-- <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="./node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css"> -->
-    <link rel="stylesheet" href="./src/Styles/css/style.css">
+    <link rel="stylesheet" href="./src/Styles/css/style.css" />
     <title>DEVFLIX</title>
-</head>
+  </head>
 
-<body class="has-text-light">
+  <body class="has-text-light">
     <header>
-        <!-- NAVBAR -->
-        <div id="mySidenav" class="sidenav">
-            <a id="closeBtn" class="close">&times;</a>
-            <ul>
-                <br>
-                <br>
-                <li><a href="./index.html">Accueil</a></li>
-                <li><a href="./notre_equipe.html">Notre équipe</a></li>
-                <li><a href="https://www.youtube.com/embed/97f4OT3bCaI" target="_blank">Vidéo intro</a></li>
-                <li><a href="mailto:salamandevv@gmail.com">Contactez-nous</a></li>
-            </ul>
-        </div>
-        <a href="index.html" class="logo"><img src="./src/img/logoreduit.png"></a>
-        <a id="openBtn">
-            <span class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-        </a>
+      <!-- NAVBAR -->
+      <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" class="close">&times;</a>
+        <ul>
+          <br />
+          <br />
+          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="./notre_equipe.html">Notre équipe</a></li>
+          <li><a href="https://www.youtube.com/embed/97f4OT3bCaI" target="_blank">Vidéo intro</a></li>
+          <li><a href="mailto:salamandevv@gmail.com">Contactez-nous</a></li>
+        </ul>
+      </div>
+      <a href="index.html" class="logo"><img src="./src/img/logoreduit.png" /></a>
+      <a id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
     </header>
 
     <main>
-        <!-- SECTION VIDEO -->
-        <section id="section_video" class="has-background-dark pb-6">
-            <div id="video" >
-                <video playsinline autoplay muted loop poster="">
-                    <source src="./src/videos/salamandev.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <!-- <div id="texte-video"> -->
-                <!-- <h1> SALAMANDEV VOUS SOUHAITE LA BIENVENUE</h1> -->
-                <!-- </div> -->
-            </div>
-            <!-- CARROUSEL -->
-            <div id="slider" class="">
-                <div class="">
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Swan.jpg" style="width:90%" alt="" />
-                    </figure>
+      <!-- SECTION VIDEO -->
+      <section id="section_video" class="has-background-dark pb-6">
+        <div id="video">
+          <video playsinline autoplay muted loop poster="">
+            <source src="./src/videos/salamandev.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <!-- <div id="texte-video"> -->
+          <!-- <h1> SALAMANDEV VOUS SOUHAITE LA BIENVENUE</h1> -->
+          <!-- </div> -->
+        </div>
+        <!-- CARROUSEL -->
+        <div id="slider" class="">
+          <div class="">
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+              <img src="./src/img/films/Swan.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div class="">
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-thomas">
+              <img src="./src/img/films/Thomas2.png" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-karim">
+              <img src="./src/img/films/Karim.png" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-adam">
+              <img src="./src/img/films/Adam.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-cyrinne">
+              <img src="./src/img/films/Cyrine.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-stephane">
+              <img src="./src/img/films/Stephane.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-adrien">
+              <img src="./src/img/films/Adrien.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-amazir">
+              <img src="./src/img/films/Amazir.png" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-arnaud">
+              <img src="./src/img/films/arnaud.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-bertrand">
+              <img src="./src/img/films/Bertrand.png" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-kevin">
+              <img src="./src/img/films/Kevin.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-naima">
+              <img src="./src/img/films/nahima.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-sebastien">
+              <img src="./src/img/films/sebastien.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-domi">
+              <img src="./src/img/films/Domi.png" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-kemal">
+              <img src="./src/img/films/kemal.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-anturia">
+              <img src="./src/img/films/anturia.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+          <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-blandine">
+              <img src="./src/img/films/blandine.jpg" style="width: 90%" alt="" />
+            </figure>
+          </div>
+        </div>
+        <!-- LES MODALES DE CHACUN -->
+        <div class="modal is-hidden-mobile" id="modal-swan">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/g6DkYAlzWYI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span> “Vas où tu veux, meurs où tu dois !”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/swan-daphne-dev-webweb/" target="_blank">Linkedin</a>
                 </div>
-                <div class="">
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-thomas">
-                        <img src="./src/img/films/Thomas2.png" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-karim">
-                        <img src="./src/img/films/Karim.png" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-adam">
-                        <img src="./src/img/films/Adam.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-cyrinne">
-                        <img src="./src/img/films/Cyrine.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-stephane">
-                        <img src="./src/img/films/Stephane.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-adrien">
-                        <img src="./src/img/films/Adrien.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-amazir">
-                        <img src="./src/img/films/Amazir.png" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-arnaud">
-                        <img src="./src/img/films/arnaud.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-bertrand">
-                        <img src="./src/img/films/Bertrand.png" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-kevin">
-                        <img src="./src/img/films/Kevin.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-naima">
-                        <img src="./src/img/films/nahima.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-sebastien">
-                        <img src="./src/img/films/sebastien.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-domi">
-                        <img src="./src/img/films/Domi.png" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-kemal">
-                        <img src="./src/img/films/kemal.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-anturia">
-                        <img src="./src/img/films/anturia.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                <div>
-                    <figure class="has-text-centered js-modal-trigger" data-target="modal-blandine">
-                        <img src="./src/img/films/blandine.jpg" style="width:90%" alt="" />
-                    </figure>
-                </div>
-                
-            </div>
-            <!-- LES MODALES DE CHACUN -->
-            <div class="modal is-hidden-mobile" id="modal-swan">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/g6DkYAlzWYI"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> “Vas où tu veux, meurs où tu dois !”</p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/swan-daphne-dev-webweb/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-thomas">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/praxmBtdtDM"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Si le monde te tourne le dos, touche-lui les fesses.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/thomas-moreau-dev-web" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-karim">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/vjkZhpe1Ai4"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Ce n'est pas personnel, c'est uniquement les affaires.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="http://www.linkedin.com/in/karim-mouellef" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-adam">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/0k-S3zv7NHY"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Je veux donc je peux, je peux donc je dois.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/affouard-adam-d%C3%A9v-web/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-cyrinne">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/SJyuTrShcp0"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Avec du temps et de la patience, on vient à bout de tout.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="cyrinegl.pro@gmail.com">Mail </a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-stephane">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/7dYRENJD8t4"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Il y a une différence entre connaître le chemin et arpenter le chemin.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="http://www.linkedin.com/in/stéphane-marliacy-devweb" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-adrien">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <!-- <iframe width="100%" height="450px" src=""
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe> -->
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Ne suivez pas les lumières. ”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/adrien-lutz-d%C3%A9veloppeur-web/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-amazir">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/l3TXK0mqdMA"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “La seule façon d'être vraiment satisfait est de faire ce que vous croyez être un excellent travail.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/amazir-bensaadi-6794171b0/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-arnaud">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/y1xNyJ40E54"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Je vois... Vous avez appris à souffrir... - J'ai été marié... Deux fois !”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/arnaud-bravard-developpeur-web/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-bertrand">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/P7IKg4HyzG0"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise citation...”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/bertrandpellerin/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-kevin">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/Hg6hc9y-PNs"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Dis-toi d'abord qui tu veux être, puis fais en conséquence ce que tu dois faire.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/kevin-komoto-d%C3%A9veloppeur-web/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-naima">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/TC0xFVQ_b1U"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Je ne perds jamais. Soit je gagnes, soit j'apprends.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/developpeur-web-nahima-toumi/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-sebastien">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/KI76TFF0ocw"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Tombe 100 fois, Relève toi 100 fois, n'abandonne jamais.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/sebastienpelc/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-domi">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/GKsd6eEGgwY"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “La beauté de la vie dépend de ton regard.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/domitile-sainz/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-kemal">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <!-- <iframe width="100%" height="450px" src=""
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe> -->
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “De nature ambitieuse, optimiste, proactif, emphatique.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/kemal-husein" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-anturia">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/DjR1y9SNiuA"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “A vaincre sans péril, on triomphe sans gloire.”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="http://www.linkedin.com/in/anturia-hassani" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="modal is-hidden-mobile" id="modal-blandine">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head is-flex is-justify-content-flex-end">
-                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
-                            <p class="modal-card-title"></p>
-                            <button class="delete" aria-label="close"></button>
-                        </div>
-                    </header>
-                    <section class="modal-card-body">
-                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/0O5jpc8TJNo"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span>
-                                “Il n’y a aucune limite à ce que vous pouvez accomplir, votre potentiel est immense !”
-                            </p>
-                            <div class="is-flex is-justify-content-space-around is-align-items-center"
-                                style="width: 300px">
-                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
-                                <a href="#">Mon portfolio </a>
-                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="https://www.linkedin.com/in/blandinerenucciconsultanterhcoachpro/" target="_blank">Linkedin</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- SECTION BANNIERE -->
-
-        <section class="hero pb-6 pt-1" id="section_banniere">
-            <div class="hero-body">
-                <div class="columns pt-1">
-                    <div style="height: 100vh"
-                        class="column is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
-                        <img class="image" src="./src/img/logo/Logo_Jaune2.png">
-                        <br>
-                        <div class="is-flex is-align-items-center is-justify-content-space-around">
-                            <img class="image is-32x32" src="./src/img/logo/cloche.png">
-                            <h3 class="is-3 pl-3">Nouveautés les plus regardées</h3>
-                        </div>
-                        <div class="pb-6 column is-two-thirds has-text-justified">
-                            <p>
-                                    Disponibles à partir du <b>28 septembre jusqu’au 27 novembre 2023</b>.
-                                    <br>
-                                    # Stage # Human Booster # Développeur Web
-                                    <br>
-                                    <br>
-                                    Parce que la vie ce n’est pas que du cinéma, tous les acteurs de l’équipe sont disponibles
-                                    pour un stage de 2 mois dans le cadre de la validation de notre titre professionnel de
-                                    "Développeur Web & Web Mobile".
-                            </p>
-                        </div>
-
-                        <button class="button is-primary is-rounded has-text-dark" id="info"><b><a href="./src/files/Fiche_Stage.pdf">En savoir
-                            plus</a></b></button>
-                    </div>
-                    <div class="column is-flex is-align-items-center">
-                        <div class="">
-                            <div class="card-image ">
-                                <figure class="image">
-                                    <img id="stage" src="./src/img/bannieres/banniere2.jpg" alt="" />
-                                </figure>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-
-        <!-- SECTION TECHNOS -->
-
-        <h2 class="has-background-dark pb-6 pt-4 title is-2 m-0 has-text-centered">Les technos étudiées</h2>
-
-        <div id="slider2" class="has-background-dark">
-            <div class="">
-                <figure class="has-text-centered" data-target="">
-                    <img src="./src/img/technos/CSS HTML.jpg" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div class="">
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/Javascript.jpg" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/PHP.jpg" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/symfony.jpg" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/tron.jpg" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/Angular.png" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/Typescript.png" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/casadepapa.jpg" style="width:90%" alt="" />
-                </figure>
-            </div>
-            <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="">
-                    <img src="./src/img/technos/Wordpress.jpg" style="width:90%" alt="" />
-                </figure>
-            </div>
+              </div>
+            </section>
+          </div>
         </div>
 
-
-        <!-- SECTION PROJET -->
-
-        <section class="projet pt-6 pb-6 is-flex is-flex-direction-column">
-            <div class="container is-flex-direction-column pb-6">
-                <h2 class="title is-2 has-text-centered pt-6"> Une super-production à 16 !</h2>
-            </div>
-
-            <div class="container is-flex">
-                <div class="columns">
-                    <div class="column  is-align-content-space-around">
-                        <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
-                            <!-- <h3 class="title is-3 has-text-centered"> Scénario / Tournage</h3> -->
-                            <figure class="image is-200x200 is align-centered">
-                                <img src="./src/img/logo/Clap_scenario.png" alt="">
-                            </figure>
-                            <br>
-                            <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="./notre_equipe.html#galerie1">Membres
-                                </a></b></button>
-                        </div>
-                    </div>
-                    <div class="column  is-align-content-space-around">
-                        <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
-                            <!-- <h3 class="title is-3 has-text-centered"> Effets spéciaux</h3> -->
-                            <figure class="image is-200x200 is align-centered">
-                                <img src="./src/img/logo/Clap_fx.png" alt="">
-                            </figure>
-                            <br>
-                            <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="notre_equipe.html#galerie2">Membres</a></b></button>
-                        </div>
-
-                    </div>
-
+        <div class="modal is-hidden-mobile" id="modal-thomas">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/praxmBtdtDM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Si le monde te tourne le dos, touche-lui les fesses.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/thomas-moreau-dev-web" target="_blank">Linkedin</a>
                 </div>
+              </div>
+            </section>
+          </div>
+        </div>
 
-            </div>
-            <div class="container mt-6 is-flex">
-                <div class="columns">
-                    <div class="column is-align-content-space-around">
-                        <div class="column  is-align-content-space-around">
-                            <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
-                                <!-- <h3 class="title is-3 has-text-centered"> Réalisation technique</h3> -->
-                                <figure class="image is-200x200 is align-centered">
-                                    <img src="./src/img/logo/Clap-Technique.png"  alt="">
-                                </figure>
-                                <br>
-                                <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="./notre_equipe.html#galerie3">Membres</a></b></button>
-                            </div>
-    
-                        </div>
-
-                    </div>
-                    <div class="column is-align-content-space-around">
-                        <div class="column  is-align-content-space-around">
-                            <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
-                                <!-- <h3 class="title is-3 has-text-centered"> Production</h3> -->
-                                <figure class="image is-200x200 is align-centered">
-                                    <img src="./src/img/logo/Clap_production.png" alt="">
-                                </figure>
-                                <br>
-                                <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="notre_equipe.html#galerie4"> Membres</a></b></button>
-                            </div>
-    
-                        </div>
-
-                    </div>
+        <div class="modal is-hidden-mobile" id="modal-karim">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/vjkZhpe1Ai4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Ce n'est pas personnel, c'est uniquement les affaires.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="http://www.linkedin.com/in/karim-mouellef" target="_blank">Linkedin</a>
                 </div>
+              </div>
+            </section>
+          </div>
+        </div>
 
+        <div class="modal is-hidden-mobile" id="modal-adam">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/0k-S3zv7NHY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Je veux donc je peux, je peux donc je dois.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/affouard-adam-d%C3%A9v-web/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-cyrinne">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/SJyuTrShcp0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Avec du temps et de la patience, on vient à bout de tout.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="cyrinegl.pro@gmail.com">Mail </a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-stephane">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/7dYRENJD8t4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Il y a une différence entre connaître le chemin et arpenter le chemin.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="http://www.linkedin.com/in/stéphane-marliacy-devweb" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-adrien">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <!-- <iframe width="100%" height="450px" src=""
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe> -->
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Ne suivez pas les lumières. ”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/adrien-lutz-d%C3%A9veloppeur-web/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-amazir">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/l3TXK0mqdMA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “La seule façon d'être vraiment satisfait est de faire ce que vous croyez être un excellent travail.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/amazir-bensaadi-6794171b0/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-arnaud">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/y1xNyJ40E54"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Je vois... Vous avez appris à souffrir... - J'ai été marié... Deux fois !”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/arnaud-bravard-developpeur-web/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-bertrand">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/P7IKg4HyzG0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise citation...”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/bertrandpellerin/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-kevin">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/Hg6hc9y-PNs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Dis-toi d'abord qui tu veux être, puis fais en conséquence ce que tu dois faire.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/kevin-komoto-d%C3%A9veloppeur-web/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-naima">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/TC0xFVQ_b1U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Je ne perds jamais. Soit je gagnes, soit j'apprends.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/developpeur-web-nahima-toumi/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-sebastien">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/KI76TFF0ocw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Tombe 100 fois, Relève toi 100 fois, n'abandonne jamais.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/sebastienpelc/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-domi">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/GKsd6eEGgwY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “La beauté de la vie dépend de ton regard.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/domitile-sainz/" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-kemal">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <!-- <iframe width="100%" height="450px" src=""
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe> -->
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “De nature ambitieuse, optimiste, proactif, emphatique.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/kemal-husein" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-anturia">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/DjR1y9SNiuA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “A vaincre sans péril, on triomphe sans gloire.”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="http://www.linkedin.com/in/anturia-hassani" target="_blank">Linkedin</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="modal is-hidden-mobile" id="modal-blandine">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head is-flex is-justify-content-flex-end">
+              <div class="is-flex is-justify-content-flex-end" style="width: 1000px">
+                <p class="modal-card-title"></p>
+                <button class="delete" aria-label="close"></button>
+              </div>
+            </header>
+            <section class="modal-card-body">
+              <iframe
+                width="100%"
+                height="450px"
+                src="https://www.youtube.com/embed/0O5jpc8TJNo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                <p class="has-text-dark is-3">
+                  <span><b> DEVISE : </b></span>
+                  “Il n’y a aucune limite à ce que vous pouvez accomplir, votre potentiel est immense !”
+                </p>
+                <div class="is-flex is-justify-content-space-around is-align-items-center" style="width: 300px">
+                  <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                  <a href="#">Mon portfolio </a>
+                  <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                  <a href="https://www.linkedin.com/in/blandinerenucciconsultanterhcoachpro/" target="_blank"
+                    >Linkedin</a
+                  >
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION BANNIERE -->
+
+      <section class="hero pb-6 pt-1" id="section_banniere">
+        <div class="hero-body">
+          <div class="columns pt-1">
+            <div
+              style="height: 100vh"
+              class="column is-flex is-flex-direction-column is-align-items-center is-justify-content-center"
+            >
+              <img class="image" src="./src/img/logo/Logo_Jaune2.png" />
+              <br />
+              <div class="is-flex is-align-items-center is-justify-content-space-around">
+                <img class="image is-32x32" src="./src/img/logo/cloche.png" />
+                <h3 class="is-3 pl-3">Nouveautés les plus regardées</h3>
+              </div>
+              <div class="pb-6 column is-two-thirds has-text-justified">
+                <p>
+                  Disponibles à partir du <b>28 septembre jusqu’au 27 novembre 2023</b>.
+                  <br />
+                  # Stage # Human Booster # Développeur Web
+                  <br />
+                  <br />
+                  Parce que la vie ce n’est pas que du cinéma, tous les acteurs de l’équipe sont disponibles pour un
+                  stage de 2 mois dans le cadre de la validation de notre titre professionnel de "Développeur Web & Web
+                  Mobile".
+                </p>
+              </div>
+
+              <button class="button is-primary is-rounded has-text-dark" id="info">
+                <b><a href="./src/files/Fiche_Stage.pdf">En savoir plus</a></b>
+              </button>
             </div>
+            <div class="column is-flex is-align-items-center">
+              <div class="">
+                <div class="card-image">
+                  <figure class="image">
+                    <img id="stage" src="./src/img/bannieres/banniere2.JPG" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <!-- SECTION TECHNOS -->
 
+      <h2 class="has-background-dark pb-6 pt-4 title is-2 m-0 has-text-centered">Les technos étudiées</h2>
+
+      <div id="slider2" class="has-background-dark">
+        <div class="">
+          <figure class="has-text-centered" data-target="">
+            <img src="./src/img/technos/CSS HTML.jpg" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div class="">
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/Javascript.jpg" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div>
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/PHP.jpg" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div>
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/symfony.jpg" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div>
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/tron.jpg" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div>
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/Angular.png" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div>
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/Typescript.png" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div>
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/casadepapa.jpg" style="width: 90%" alt="" />
+          </figure>
+        </div>
+        <div>
+          <figure class="has-text-centered js-modal-trigger" data-target="">
+            <img src="./src/img/technos/Wordpress.jpg" style="width: 90%" alt="" />
+          </figure>
+        </div>
+      </div>
+
+      <!-- SECTION PROJET -->
+
+      <section class="projet pt-6 pb-6 is-flex is-flex-direction-column">
+        <div class="container is-flex-direction-column pb-6">
+          <h2 class="title is-2 has-text-centered pt-6">Une super-production à 16 !</h2>
+        </div>
+
+        <div class="container is-flex">
+          <div class="columns">
+            <div class="column is-align-content-space-around">
+              <div
+                class="bordure effet is-flex is-flex-direction-column is-align-items-center"
+                style="width: 400px; height: 500px"
+              >
+                <!-- <h3 class="title is-3 has-text-centered"> Scénario / Tournage</h3> -->
+                <figure class="image is-200x200 is align-centered">
+                  <img src="./src/img/logo/Clap_scenario.png" alt="" />
+                </figure>
+                <br />
+                <button class="button is-primary is-rounded has-text-dark" style="width: 150px" id="info">
+                  <b><a href="./notre_equipe.html#galerie1">Membres </a></b>
+                </button>
+              </div>
+            </div>
+            <div class="column is-align-content-space-around">
+              <div
+                class="bordure effet is-flex is-flex-direction-column is-align-items-center"
+                style="width: 400px; height: 500px"
+              >
+                <!-- <h3 class="title is-3 has-text-centered"> Effets spéciaux</h3> -->
+                <figure class="image is-200x200 is align-centered">
+                  <img src="./src/img/logo/Clap_fx.png" alt="" />
+                </figure>
+                <br />
+                <button class="button is-primary is-rounded has-text-dark" style="width: 150px" id="info">
+                  <b><a href="notre_equipe.html#galerie2">Membres</a></b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-6 is-flex">
+          <div class="columns">
+            <div class="column is-align-content-space-around">
+              <div class="column is-align-content-space-around">
+                <div
+                  class="bordure effet is-flex is-flex-direction-column is-align-items-center"
+                  style="width: 400px; height: 500px"
+                >
+                  <!-- <h3 class="title is-3 has-text-centered"> Réalisation technique</h3> -->
+                  <figure class="image is-200x200 is align-centered">
+                    <img src="./src/img/logo/Clap-Technique.png" alt="" />
+                  </figure>
+                  <br />
+                  <button class="button is-primary is-rounded has-text-dark" style="width: 150px" id="info">
+                    <b><a href="./notre_equipe.html#galerie3">Membres</a></b>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="column is-align-content-space-around">
+              <div class="column is-align-content-space-around">
+                <div
+                  class="bordure effet is-flex is-flex-direction-column is-align-items-center"
+                  style="width: 400px; height: 500px"
+                >
+                  <!-- <h3 class="title is-3 has-text-centered"> Production</h3> -->
+                  <figure class="image is-200x200 is align-centered">
+                    <img src="./src/img/logo/Clap_production.png" alt="" />
+                  </figure>
+                  <br />
+                  <button class="button is-primary is-rounded has-text-dark" style="width: 150px" id="info">
+                    <b><a href="notre_equipe.html#galerie4"> Membres</a></b>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- SECTION FOOTER -->
     <footer class="has-background-dark is-flex is-justify-content-space-around pt-5">
-        <span>copyright © DEVFLIX 2022</span>
-        <a href="./mentions_legales.html"> Mentions légales & politique de confidentialité</a>
-        <a href="mailto:salamandevv@gmail.com"> Contactez-nous </a>
+      <span>copyright © DEVFLIX 2022</span>
+      <a href="./mentions_legales.html"> Mentions légales & politique de confidentialité</a>
+      <a href="mailto:salamandevv@gmail.com"> Contactez-nous </a>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
     <script>
-        bulmaCarousel.attach('#slider', {
-            slidesToScroll: 1,
-            slidesToShow: 4,
-            infinite: true,
-            autoplay: true,
-            pagination: false,
-            autoplaySpeed: 2500,
-            pauseOnHover: true
-            // effect: translate
-        });
-        bulmaCarousel.attach('#slider2', {
-            slidesToScroll: 1,
-            slidesToShow: 4,
-            infinite: true,
-            autoplay: true,
-            pagination: false,
-            autoplaySpeed: 2500,
-            pauseOnHover: true
-            // effect: translate
-        });
+      bulmaCarousel.attach('#slider', {
+        slidesToScroll: 1,
+        slidesToShow: 4,
+        infinite: true,
+        autoplay: true,
+        pagination: false,
+        autoplaySpeed: 2500,
+        pauseOnHover: true,
+        // effect: translate
+      });
+      bulmaCarousel.attach('#slider2', {
+        slidesToScroll: 1,
+        slidesToShow: 4,
+        infinite: true,
+        autoplay: true,
+        pagination: false,
+        autoplaySpeed: 2500,
+        pauseOnHover: true,
+        // effect: translate
+      });
     </script>
     <script src="./src/js/script.js"></script>
-</body>
-
+  </body>
 </html>
