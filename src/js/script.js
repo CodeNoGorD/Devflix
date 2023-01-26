@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const $target = $close.closest('.modal');
   
       $close.addEventListener('click', () => {
-        closeModal($target);
+        document.location.href="./index.html";
+        // closeModal($target);
       });
     });
   
