@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.location.href="./index.html";
         // closeModal($target);
       });
-    });
+    // });
   
     // Add a keyboard event to close all modals
     document.addEventListener('keydown', (event) => {
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* Set the width of the side navigation to 0 */
   function closeNav() {
     sidenav.classList.remove("active");
-  }
+  }  
   window.addEventListener("scroll",function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky",window.scrollY > 0);
